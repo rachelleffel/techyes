@@ -29,41 +29,41 @@ force-https: True
 #############
 
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+author: "Rachel Leffel"
+title: "TechYes!"
+description: "TechYes! Diversity in Tech Meetup site"
+keywords: "meetup, diversity, tech"
 favicon: "/img/favicon.ico"
 
 ################
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+black-favicon: "/img/techyeslogo.png"
 
-background-img: "../img/intro-bg.jpg"
+background-img: "../img/pinkgradient.png"
 
 ##############################
 # Dynamic Text on the Header #
 ##############################
 
-dynamic-typing: True
-shuffle: True # Shuffle the lines.
-loop: True
-loop-count: False # Set False for infinite loop, or set any number for finite loop.
-type-speed: 10
-start-delay: 200
-delete-delay: 5000
-lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+#dynamic-typing: True
+#shuffle: True # Shuffle the lines.
+#loop: True
+#loop-count: False # Set False for infinite loop, or set any number for finite loop.
+#type-speed: 10
+#start-delay: 200
+#delete-delay: 5000
+#lines: # You can add HTML Tags in the Text
+#  - text: "The lower you fall, the higher you'll fly."
+#  - text: "Where’s your will to be weird?"
 
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/techyeslogo.png"
 
 ##############################
 # Color the browser elements #
 ##############################
-color-browser: "#000000"
+color-browser: "#F7F7F7"
 apple-status-bar-style: "black"
 
 ################
