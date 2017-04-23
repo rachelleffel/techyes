@@ -322,6 +322,8 @@ p {
     text-align: center;
 }
 
+// Contact Page //
+
 .contact {
     text-align: center;
 }
@@ -366,6 +368,49 @@ p {
     font-size: 16px;
     margin-top: -20px;
 }
+
+
+// About //
+
+.members {
+
+    text-align: center;
+
+    .person {
+        margin: 10px 40px;
+        display: inline-block;
+        text-align: center;        
+            li {
+                list-style: none;
+                text-align: center;
+            }
+        }
+
+    .person-photo {
+        border-radius: 100px;
+        width: 123px;
+        height: 123px;
+     }
+
+     .person-details {
+        padding: 0;
+     }
+
+    .name {
+        font-size: 14px;
+    }
+
+    .title {
+        font-size: 12px;
+    }
+}
+
+.mission-text {
+    margin: auto;
+    width: 80%;
+    display: block;
+}
+
 
 .btn-outline {
    padding:10px 15px;
