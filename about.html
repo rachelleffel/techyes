@@ -1,18 +1,180 @@
----
-layout: null
-section-type: about
-title: About
----
-## About
+<!-- Index Layout Start -->
 
-Github's Octocat was designed by Simon Oxley, alongside the white bird Twitter used (before they received a proper logo) as part of a usual routine of cranking out images for iStock. GitHub saw it, and wanted it, presumably under the notion that it can represent how complex code combines to create peculiar things, much like the octopuss... except the CEO of GitHub called it an octocat, and it has been the octocat since <a href="https://www.quora.com/GitHub/What-is-the-story-behind-GitHub%E2%80%99s-octocat-mascot" target="_blank">[via]</a>.
+<!DOCTYPE html>
+<html lang="en">
 
-<small>
-Octocat is Github's logo and trademark and here is used to illustrate a fictional character (John Smith) that used the *{ Personal }* Jekyll Theme to build his website.
-</small>
+  
+<!-- HEAD Start -->
 
-Support the repo by starring or forking it!
+<head>
+  
 
-<iframe src="https://ghbtns.com/github-btn.html?user=panossakkos&repo=personal-jekyll-theme&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
-<iframe src="https://ghbtns.com/github-btn.html?user=panossakkos&repo=personal-jekyll-theme&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+  <!-- Force HTTPS Start -->
+  <script>
+  // Don't force http when serving the website locally
+  if (!(window.location.host.startsWith("127.0.0.1")) && (window.location.protocol != "https:"))
+    window.location.protocol = "https";
+  </script>
+
+  <!-- Force HTTPS End -->
+
+
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="TechYes! Diversity in Tech Meetup site">
+  <meta name="author" content="Rachel Leffel">
+  <meta name="keywords" content="meetup, diversity, tech">
+  <link rel="canonical" href="/">
+  <title>TechYes!</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- Custom CSS -->
+  <link href="/css/grayscale.css" rel="stylesheet">
+  
+  <link href="/css/timeline.css" rel="stylesheet">
+  
+
+  <!-- Custom Fonts -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/rrssb.css" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+  <!-- Navigation Start -->
+
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+        <i class="fa fa-bars"></i>
+      </button>
+      
+        <a class="navbar-brand" href="/">
+      
+          <div>
+            
+              <img src="/img/techyeslogo.png" alt="">
+            
+            <!-- TechYes! -->
+          </div>
+        </a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+      <ul class="nav navbar-nav">
+        
+          <!-- Blog, Post, Tag and Error pages -->
+          
+            <li>
+            
+                <a href="/#about"> About </a>
+            
+            </li>
+          
+            <li>
+            
+              
+                <a href="/blog/"> Blog </a>
+              
+            
+            </li>
+          
+            <li>
+            
+                <a href="/#timeline"> Timeline </a>
+            
+            </li>
+          
+            <li>
+            
+                <a href="/#contact"> Contact </a>
+            
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Navigation End -->
+
+
+<h3 class="row">Our Mission</h3>
+
+<div class="mission-text">
+  <p>TechYes! is a meetup group designed to be a safe space for people to learn about and discuss diversity issues in tech. Our goal is to create a community where people can discuss their experiences around diversity and inclusion in the tech space and lean on each other for support.</p>
+</div>
+
+<h3>Who We Are</h3>
+
+<section class="members">
+    <div class="person">
+      <img class="person-photo" src="img/elena.jpg" alt="Picture of Elena Washington">
+      <ul class="person-details">
+        <li class="name">Elena Washington</li>
+        <li class="title">Site Reliability Engineer</li>
+      </ul>
+    </div>
+    <div class="person">
+      <img class="person-photo" src="img/zirm.jpg" alt="Picture of Andrew Zirm">
+      <ul class="person-details">
+        <li class="name">Andrew Zirm</li>
+        <li class="title">Data Scientist</li>
+      </ul>
+    </div>
+   <div class="person">
+    <img class="person-photo" src="img/lucia.png" alt="Picture of Lucia Hoang">
+    <ul class="person-details">
+      <li class="name">Lucia Hoang</li>
+      <li class="title">QA Engineer</li>
+    </ul>
+  </div>
+</section>
+<section class="members">
+    <div class="person">
+      <img class="person-photo" src="img/lv.jpg" alt="Picture of LV">
+      <ul class="person-details">
+        <li class="name">LV</li>
+        <li class="title">QA Engineer</li>
+      </ul>
+    </div>
+    <div class="person">
+      <img class="person-photo" src="img/rachel.jpeg" alt="Picture of Rachel Leffel">
+      <ul class="person-details">
+        <li class="name">Rachel Leffel</li>
+        <li class="title">Support Engineer</li>
+      </ul>
+    </div>
+    <div class="person">
+      <img class="person-photo" src="img/Adeola.jpeg" alt="Picture of Adeola Oyelola">
+      <ul class="person-details">
+        <li class="name">Adeola Oyelola</li>
+        <li class="title">Associate Corporate Counsel</li>
+      </ul>
+    </div>
+</section>
+<section class="members">
+    <div class="person">
+    <img class="person-photo" src="img/allison.jpeg" alt="Picture of Allison Slater">
+    <ul class="person-details">
+      <li class="name">Allison Slater</li>
+      <li class="title">Learning & Development Initiatives</li>
+    </ul>
+  </div>
+</section>
+
+<div class="about-contact">
+  <p>Have questions? Want to get involved?</p>
+  <a class="partners" href="contact.html">Contact Us</a>
+</div>
