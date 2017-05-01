@@ -1,0 +1,13 @@
+events:
+  - image: "/img/timeline/NYCEvent7.png"
+    date: "TechYes! #7: The Diversity in the Data"
+    description: "New York City | March 1, 2017"
+  - image: "/img/timeline/NYCEvent6.png"
+    date: "TechYes! #6: The Politics of Treating People Well"
+    description: "New York City | December 14, 2016"
+  - image: "/img/timeline/NYCEvent5.png"
+    date: "TechYes! #5: Jamboree!"
+    description: "New York City | October 19, 2016"
+  - image: "/img/timeline/NYCEvent4.png"
+    date: "TechYes! #4: Beyond the Basic Background"
+    description: "York City | August 4, 2016"
