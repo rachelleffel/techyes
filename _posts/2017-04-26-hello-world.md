@@ -13,5 +13,3 @@ At the age of 19, Jessica invented the SOCCKET ball, an energy generating soccer
 Members of Harlem Tech Fund and TechYes! will then share their own experiences with trailblazing. To continue the conversation, we ultimately want to hear from you! What are some ways that you have blazed a trail in the past? What are some experiences that you are going through now? We hope that through this discussion, we'll expand our definition and understanding of what it means to be a trailblazer.
 
 Please join us in Harlem at HTF's offices for this exciting event! Refreshments and quality conversation will be provided. 
-
-<a class="btn" href="https://goo.gl/forms/aMTySUMEL5CAdSSg2">Get Involved</a>

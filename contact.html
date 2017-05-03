@@ -1,149 +1,15 @@
-<!-- Index Layout Start -->
+---
+layout: null
+section-type: contact
+title: Contact
+---
 
-<!DOCTYPE html>
-<html lang="en">
+{% include head.html %}
 
-  
-<!-- HEAD Start -->
+{% include navigation.html %}
 
-<head>
-  
+{% include contact.html %}
 
+{% include footer.html %}
 
-  <!-- Force HTTPS Start -->
-  <script>
-  // Don't force http when serving the website locally
-  if (!(window.location.host.startsWith("127.0.0.1")) && (window.location.protocol != "https:"))
-    window.location.protocol = "https";
-  </script>
-
-  <!-- Force HTTPS End -->
-
-
-
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="TechYes! Diversity in Tech Meetup site">
-  <meta name="author" content="Rachel Leffel">
-  <meta name="keywords" content="meetup, diversity, tech">
-  <link rel="canonical" href="/">
-  <title>TechYes!</title>
-
-  <!-- Bootstrap Core CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-  <!-- Custom CSS -->
-  <link href="/css/grayscale.css" rel="stylesheet">
-  
-  <link href="/css/timeline.css" rel="stylesheet">
-  
-
-  <!-- Custom Fonts -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/css/rrssb.css" />
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
-
-</head>
-<body>
-
-  <!-- Navigation Start -->
-
-<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-        <i class="fa fa-bars"></i>
-      </button>
-      
-        <a class="navbar-brand" href="/">
-      
-          <div>
-            
-              <img src="/img/techyeslogo.png" alt="">
-            
-            <!-- TechYes! -->
-          </div>
-        </a>
-    </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-      <ul class="nav navbar-nav">
-        
-          <!-- Blog, Post, Tag and Error pages -->
-          
-            <li>
-            
-                <a href="/#about"> About </a>
-            
-            </li>
-          
-            <li>
-            
-              
-                <a href="/blog/"> Blog </a>
-              
-            
-            </li>
-          
-            <li>
-            
-                <a href="/#timeline"> Timeline </a>
-            
-            </li>
-          
-            <li>
-            
-                <a href="/#contact"> Contact </a>
-            
-            </li>
-          
-        
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<!-- Navigation End -->
-  
-    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
-
-  <div class="row">
-    <div class="col-md-10 col-md-offset-1">
-
-      <h3 class="contact">Contact</h3>
-
-<section class="contact-section">
-  <p>If you’d like to get involved or share feedback about TechYes!, 
-  please fill out the form below!</p>
-      </div>
-    </div>
-  </section>
-
-  <div class="contact">
-   <li class="btn"><a href="https://goo.gl/forms/aMTySUMEL5CAdSSg2">Contact Us</a></li>
-  </div>
-
-  <p>Want updates on our newest events? Join us on Meetup.com!</p>
-
-  <div class="contact-nyc">
-   <li class="btn"><a href="https://www.meetup.com/Tech-Yes-Diversity-in-Tech-Meetup">Join Us in NYC</a></li>
-  </div>
-
-  <div class="contact-sf">
-   <li class="btn"><a href="https://www.meetup.com/TechYesBayArea/">Join Us in SF</a></li>
-  </div>
-
-  <p>Is your organization interested in partnering with us?</p>
-  <a class="partners" href="partners.html">Check out our Partnerships page</a>
-</section>  
-
-</div></div>
-
-</body>
-</html>
+{% include js.html %}
