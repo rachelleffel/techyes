@@ -122,6 +122,9 @@ nyc_events:
 
 sf_events:
   - image: "/img/timeline/NYCEvent7.png"
+    description: "TechYes! #1: Initial Commit"
+    date: "January 1, 2017"
+  - image: "/img/timeline/NYCEvent7.png"
     description: "i am a test! also, reinstall jemoji~"
     date: "April 1, 2017"
   - image: "/img/timeline/NYCEvent7.png"

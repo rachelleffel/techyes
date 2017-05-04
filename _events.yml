@@ -1,0 +1,30 @@
+everyone:
+  -
+    date: 2015-05-29 18:30
+    name: Something Fun
+  -
+    date: 2015-06-10
+    name: Scrapbooking
+  -
+    date: 2015-06-14
+    name: Whatever
+coolKids:
+  -
+    date: 2015-05-30
+    name: Game Night
+    location:
+    description: BYOG
+    cost: Free
+  -
+    date: 2015-05-31
+    end-date: 2015-06-01
+    name: Skateboarding
+    location:
+    description:
+    cost: Free
+  -
+    date: 2015-06-02
+    name: Hang out
+    location:
+    description:
+    cost: Free
