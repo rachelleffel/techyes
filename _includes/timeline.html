@@ -6,9 +6,6 @@
         {% for event in site.nyc_events %}
           {% assign loopindex = forloop.index | modulo: 2 %}
           {% capture class %}
-          {% if loopindex == 0 %}
-            timeline-inverted
-          {% endif %}
           {% endcapture %}
 
           <li class="{{ class }}">
@@ -33,7 +30,7 @@
         {% for event in site.sf_events %}
           {% assign loopindex = forloop.index | modulo: 2 %}
           {% capture class %}
-          {% if loopindex == 0 %}
+          {% if loopindex %}
             timeline-inverted
           {% endif %}
           {% endcapture %}
