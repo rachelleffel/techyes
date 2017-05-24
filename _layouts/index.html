@@ -12,21 +12,35 @@
 
     {% include header.html %}
 
-    {% for p in site.pages_list %}
-      {% for page in site.pages %}
-        {% if p[1] == page.section-type %}
-          {% include {{ page.path }} %}
-        {% endif %}
-      {% endfor %}
+    {% for event in site.nyc_events limit: 1 %}
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4>{{ event.description }}</h4>
+        </div>
+        <div class="timeline-body">
+          {{ event.date | markdownify }}
+          {{ event.paragraph | markdownify }}
+        </div>
+      </div>
     {% endfor %}
 
-    {% include events.html %}
+    {% for event in site.sf_events limit: 1 %}
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4>{{ event.description }}</h4>
+        </div>
+        <div class="timeline-body">
+          {{ event.date | markdownify }}
+          {{ event.paragraph | markdownify }}
+        </div>
+      </div>
+    {% endfor %}
 
     {% include footer.html %}
 
     {% include js.html %}
- 
+
   </body>
 </html>
 
-<!-- Index Layout End --> 
+<!-- Index Layout End -->
