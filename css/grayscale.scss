@@ -99,6 +99,24 @@ header {
     margin-left: -1.5px;
     background-color: #009AD1;
 }
+.timeline.sf {
+    margin-bottom: 260px;
+}
+.timeline.sf:before {
+    background-color:green;
+    left: 40%;
+}
+.timeline.sf:after {
+    content: "";
+    position: absolute;
+    bottom: -15%;
+    border-top: 2px solid green;
+    transform: rotate(-20deg);
+    transform-origin: 0% 0%;
+    width: 68%;
+    right: 55%;
+
+}
 
 .timeline>li {
     position: relative;
@@ -146,6 +164,11 @@ header {
     margin-left: 0;
     text-align: center;
     color: #fff;
+}
+
+.flexbox {
+    display:flex;
+    align-items:flex-end;
 }
 
 .img-me {
@@ -210,7 +233,7 @@ header {
 
 @media(min-width:768px) {
     .timeline:before {
-        left: 50%;
+        left: 81.5%;
     }
 
     .timeline>li {
@@ -225,10 +248,12 @@ header {
     }
 
     .timeline>li .timeline-image {
-        left: 50%;
+        left: 65%;
         width: 100px;
         height: 100px;
-        margin-left: -50px;
+    }
+    .timeline.sf>li .timeline-image {
+        left:23.5%;
     }
 
     .img-me {
@@ -267,7 +292,6 @@ header {
     .timeline>li .timeline-image {
         width: 150px;
         height: 150px;
-        margin-left: -75px;
     }
 
     .img-me {

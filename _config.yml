@@ -150,6 +150,19 @@ sf_events:
     date: "San Francisco &#124; May 23, 2016"
     paragraph: "Something goes here"
 
+
+nyc_upcoming:
+  - image: 
+    description: "No upcoming events"
+    date: 
+    paragraph: 
+
+sf_upcoming:
+  - image: 
+    description: "No upcoming events"
+    date: 
+    paragraph: 
+
 # First image of the Timeline
 
 timeline-img: "/img/timeline/default.png"

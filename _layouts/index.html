@@ -12,7 +12,7 @@
 
     {% include header.html %}
 
-    {% for event in site.nyc_events limit: 1 %}
+    {% for event in site.nyc_upcoming limit: 1 %}
       <div class="timeline-panel">
         <div class="timeline-heading">
           <h4>{{ event.description }}</h4>
@@ -24,7 +24,7 @@
       </div>
     {% endfor %}
 
-    {% for event in site.sf_events limit: 1 %}
+    {% for event in site.sf_upcoming limit: 1 %}
       <div class="timeline-panel">
         <div class="timeline-heading">
           <h4>{{ event.description }}</h4>
