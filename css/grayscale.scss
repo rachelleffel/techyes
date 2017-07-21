@@ -103,18 +103,18 @@ header {
     margin-bottom: 260px;
 }
 .timeline.sf:before {
-    background-color:green;
-    left: 40%;
+    background-color:#1FA8A0;
+    left: 130px;
 }
 .timeline.sf:after {
     content: "";
     position: absolute;
-    bottom: -15%;
-    border-top: 2px solid green;
+    bottom: -130px;
+    border-top: 2px solid #1FA8A0;
     transform: rotate(-20deg);
     transform-origin: 0% 0%;
     width: 68%;
-    right: 55%;
+    right: 402px;
 
 }
 
@@ -192,7 +192,6 @@ header {
 }
 
 .timeline>li.timeline-inverted>.timeline-panel {
-    float: right;
     text-align: left;
 }
 
@@ -233,7 +232,7 @@ header {
 
 @media(min-width:768px) {
     .timeline:before {
-        left: 81.5%;
+        left: 360px;
     }
 
     .timeline>li {
@@ -275,8 +274,9 @@ header {
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
-        float: right;
         text-align: left;
+        margin-left: 180px;
+        width: auto;
     }
 }
 
@@ -286,7 +286,7 @@ header {
     }
 
     .timeline>li .timeline-panel {
-        
+
     }
 
     .timeline>li .timeline-image {
@@ -312,7 +312,7 @@ header {
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
-        
+
     }
 }
 
@@ -322,7 +322,7 @@ header {
     }
 
     .timeline>li .timeline-panel {
-        
+
     }
 
     .timeline>li .timeline-image {
@@ -345,7 +345,7 @@ header {
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
-     
+
     }
 }
 
@@ -664,9 +664,9 @@ p {
         margin: 0 -10px;
         vertical-align: top;
         display: inline-block;
-        text-align: center;  
+        text-align: center;
         width: 200px;
-        height: 200px;      
+        height: 200px;
             li {
                 list-style: none;
                 text-align: center;
