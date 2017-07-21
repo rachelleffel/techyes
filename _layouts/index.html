@@ -14,7 +14,7 @@
 
     {% for event in site.nyc_upcoming limit: 1 %}
       <div class="timeline-panel">
-        <div class="timeline-heading">
+        <div class="timeline-heading nyc">
           <h4>{{ event.description }}</h4>
         </div>
         <div class="timeline-body">
@@ -26,7 +26,7 @@
 
     {% for event in site.sf_upcoming limit: 1 %}
       <div class="timeline-panel">
-        <div class="timeline-heading">
+        <div class="timeline-heading sf">
           <h4>{{ event.description }}</h4>
         </div>
         <div class="timeline-body">

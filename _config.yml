@@ -1,4 +1,4 @@
-
+  
 # Site settings
 
 # NB! Set your site's url, otherwise stuff will break :)
@@ -33,7 +33,7 @@ author: "Rachel Leffel"
 title: "TechYes!"
 description: "TechYes! Diversity in Tech Meetup site"
 keywords: "meetup, diversity, tech"
-favicon: "/img/favicon.ico"
+favicon: "/img/web-app/favicon2.ico"
 
 ################
 # Header layout #
