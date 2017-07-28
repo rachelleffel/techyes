@@ -13,28 +13,36 @@
     {% include header.html %}
 
     {% for event in site.nyc_upcoming limit: 1 %}
-      <div class="timeline-panel">
-        <div class="timeline-heading nyc">
+      <div class="homepage-panel nyc">
+        <div class="homepage-heading">
           <h4>{{ event.description }}</h4>
         </div>
-        <div class="timeline-body">
+        <div class="homepage-body">
           {{ event.date | markdownify }}
           {{ event.paragraph | markdownify }}
         </div>
       </div>
     {% endfor %}
 
+  <div class="contact-nyc">
+   <li class="btn nyc-homepage-button"><a target="_blank" href="https://www.meetup.com/Tech-Yes-Diversity-in-Tech-Meetup">RSVP on Meetup.com</a></li>
+  </div>
+
     {% for event in site.sf_upcoming limit: 1 %}
-      <div class="timeline-panel">
-        <div class="timeline-heading sf">
+      <div class="homepage-panel saf">
+        <div class="homepage-heading sfhomepage">
           <h4>{{ event.description }}</h4>
         </div>
-        <div class="timeline-body">
+        <div class="homepage-body">
           {{ event.date | markdownify }}
           {{ event.paragraph | markdownify }}
         </div>
       </div>
     {% endfor %}
+
+  <div class="contact-sf">
+   <li class="btn sf-homepage-button"><a target="_blank" href="https://www.meetup.com/TechYesBayArea/">Join Us in SF</a></li>
+  </div> 
 
     {% include footer.html %}
 

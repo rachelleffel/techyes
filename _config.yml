@@ -33,7 +33,7 @@ author: "Rachel Leffel"
 title: "TechYes!"
 description: "TechYes! Diversity in Tech Meetup site"
 keywords: "meetup, diversity, tech"
-favicon: "/img/web-app/favicon2.ico"
+favicon: "/img/web-app/favicon.ico"
 
 ################
 # Header layout #
@@ -108,6 +108,10 @@ syntax-highlight: True
 
 nyc_events:
   - image: "/img/timeline/NYCEvent8.png"
+    description: "TechYes #9: Check Yourself Before You Wreck Yourself (emotionally)"
+    date: "New York City &#124; June 28, 2017"
+    paragraph: "Something goes here"  
+  - image: "/img/timeline/NYCEvent8.png"
     description: "TechYes! #8: Let's Blaze! (trails)"
     date: "New York City &#124; April 27, 2017"
     paragraph: "Something goes here"
@@ -139,27 +143,50 @@ nyc_events:
     description: "TechYes! #1: Initial Commit"
     date: "New York City &#124; August 4, 2016"
     paragraph: "Something goes here"
+  - image: "/img/timeline/default.png"
+    description: 
+    date: 
+    paragraph: "Something goes here"    
 
 sf_events:
   - image: "/img/timeline/SFEvent2.png"
-    description: "TechYes! #1: Initial Commit"
+    description: "TechYes! Meet-Up #3: Behaviors of Inclusion"
+    date: "San Francisco &#124; July 31, 2017"
+    paragraph: "Something goes here"
+  - image: "/img/timeline/SFEvent2.png"
+    description: "TechYes! Meet-Up #2: The Personal Side of Data"
     date: "San Francisco &#124; March 22, 2017"
     paragraph: "Something goes here"
   - image: "/img/timeline/SFEvent1.png"
-    description: "i am a test! also, reinstall jemoji~"
+    description: "TechYes! Meetup #1: Initial Commit"
     date: "San Francisco &#124; May 23, 2016"
     paragraph: "Something goes here"
 
 
 nyc_upcoming:
   - image: 
-    description: "No upcoming events"
-    date: 
-    paragraph: 
+    description: "Upcoming events in New York City <br><br>
+    TechYes! #9: Check Yourself Before You Wreck Yourself (emotionally)"
+    date: "When: Wednesday, June 28, 2017 <br>
+    Where: Greenhouse Software, 110 5th, 3rd Fl
+New York, NY 10011"
+    paragraph: |
+      Ever dive into a conversation about topics rooted in diversity, inclusion, and your personal experiences and have it go from real casual to emotionally charged? Maybe you were talking to your manager during a 1:1. Perhaps it was your distant relative at some family reunion. Regardless of the situation, some conversations and experiences inevitably come with a slew of emotions that are sometimes difficult to process. How can we check on our range of emotions and process them so that they help instead of hinder?
+      
+      We're excited to announce that we're partnering with LifeLabs Learning to provide you with a workshop on regulating emotions!
+      
+      This workshop will be taught by Tania Luna, Partner & Facilitator at LifeLabs Learning. Tania specializes in organizational psychology, emotion regulation, and surprise psychology. She is a leadership trainer, researcher, TED speaker, and co-author of the book Surprise: Embrace the Unpredictable & Engineer the Unexpected. 
+      
+      Our friends at Jopwell are hosting the event! 
+      
+      Jopwell helps Black, Latino/Hispanic, and Native American students and professionals unlock opportunities for career advancement, not only when looking for a job but at all career stages. Jopwell’s mission is twofold: Make a substantial, measurable impact on increasing Black, Latino/Hispanic, and Native American representation and to facilitate a national dialogue about diversity in the workplace. Sign up to get connected with top opportunities.
+      
+      As always, dinner and drinks will be served at 6:30pm. We'll start the official event at 7:00pm. Can't wait to see you all there!"
 
 sf_upcoming:
   - image: 
-    description: "No upcoming events"
+    description: "Upcoming events in San Francisco <br><br>
+    No upcoming events"
     date: 
     paragraph: 
 

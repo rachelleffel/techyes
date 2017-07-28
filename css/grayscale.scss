@@ -92,29 +92,31 @@ header {
 .timeline:before {
     content: "";
     position: absolute;
-    top: 0;
-    bottom: 0;
+    top: 40;
+    bottom: 142;
     left: 40px;
-    width: 2px;
+    width: 4px;
     margin-left: -1.5px;
     background-color: #009AD1;
 }
+
 .timeline.sf {
     margin-bottom: 260px;
 }
 .timeline.sf:before {
     background-color:#1FA8A0;
     left: 130px;
+    bottom: 0;
 }
 .timeline.sf:after {
     content: "";
     position: absolute;
-    bottom: -130px;
-    border-top: 2px solid #1FA8A0;
-    transform: rotate(-20deg);
-    transform-origin: 0% 0%;
-    width: 68%;
-    right: 402px;
+    bottom: -127px;
+    border-top: 4px solid #1FA8A0;
+    transform: rotate(-20.3deg);
+    transform-origin: 1% 0%;
+    width: 66.5%;
+    right: 401px;
 
 }
 
@@ -482,7 +484,7 @@ a {
         }
     }
     @media(min-width:768px) {
-        height: 100%;
+        height: 75%;
         padding: 0;
         .intro-body {
             .brand-heading {
@@ -650,6 +652,7 @@ p {
     text-align: center;
     font-size: 16px;
     margin-top: -20px;
+    margin-bottom: 50px;
 }
 
 
@@ -889,3 +892,68 @@ img::-moz-selection {
 .fourofour {
   border: 1px solid $primary-color !important;
 }
+
+
+.nyc {
+    background-image: url('../img/NYC.png');
+    height: 970px;
+    width: 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.saf {
+    background-image: url('../img/SF.png');
+    height: 970px;
+    width: 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.homepage-body {
+    padding: 0 250px;
+}
+
+.homepage-body p {
+    text-align: left;
+}
+
+.homepage-heading h4 {
+    margin: 0 340px;
+    padding: 50px
+}
+
+.sfhomepage {
+    padding-top: 475px;
+}
+
+.timeline-body {
+    margin: 0;
+}
+
+.timeline-body p {
+    text-align: center;
+}
+
+.timeline-heading > h4 {
+    margin: 0;
+    padding: 0;
+}
+
+
+.nyc-homepage-button {
+    display: inline-block;
+    margin-top: -110px; 
+}
+
+.contact-sf > .sf-homepage-button {
+    display: inline-block;
+    margin-top: -610px;
+}
+
