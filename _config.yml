@@ -165,7 +165,7 @@ sf_events:
 
 nyc_upcoming:
   - image: 
-    description: "Upcoming events in New York City <br><br>
+    description: "Upcoming events in <span style='color:blue;'>New York City</span>
     TechYes! #9: Check Yourself Before You Wreck Yourself (emotionally)"
     date: "When: Wednesday, June 28, 2017 <br>
     Where: Greenhouse Software, 110 5th, 3rd Fl
