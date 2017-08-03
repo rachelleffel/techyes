@@ -604,7 +604,7 @@ p {
 // Partners Page //
 
 .partner-logo {
-    margin: 40px 20px;
+    margin: 20px;
 }
 
 // Contact Page //
@@ -896,7 +896,7 @@ img::-moz-selection {
 
 .nyc {
     background-image: url('../img/NYC.png');
-    height: 970px;
+    min-height: 970px;
     width: 100%;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -907,7 +907,7 @@ img::-moz-selection {
 
 .saf {
     background-image: url('../img/SF.png');
-    height: 970px;
+    min-height: 970px;
     width: 100%;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -929,8 +929,13 @@ img::-moz-selection {
     padding: 50px
 }
 
+.homepage-heading h3 {
+    margin-top: -5px;
+    margin-bottom: -25px;
+}
+
 .sfhomepage {
-    padding-top: 475px;
+    padding-top: 300px;
 }
 
 .timeline-body {
@@ -946,14 +951,10 @@ img::-moz-selection {
     padding: 0;
 }
 
-
 .nyc-homepage-button {
-    display: inline-block;
-    margin-top: -110px; 
+    margin-bottom: 60px; 
 }
 
 .contact-sf > .sf-homepage-button {
-    display: inline-block;
-    margin-top: -610px;
+    margin-top: -10px;
 }
-

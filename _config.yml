@@ -165,10 +165,10 @@ sf_events:
 
 nyc_upcoming:
   - image: 
-    description: "Upcoming events in <span style='color:blue;'>New York City</span>
-    TechYes! #9: Check Yourself Before You Wreck Yourself (emotionally)"
-    date: "When: Wednesday, June 28, 2017 <br>
-    Where: Greenhouse Software, 110 5th, 3rd Fl
+    description: "<h3>Upcoming events in <span style='color:#009AD1;'>New York City</span></h3>
+    <h4>TechYes! #9: Check Yourself Before You Wreck Yourself (emotionally)</h4>"
+    date: "<span style='color:#009AD1;'>When:</span> Wednesday, June 28, 2017 <br>
+    <span style='color:#009AD1;'>Where:</span> Greenhouse Software, 110 5th, 3rd Fl
 New York, NY 10011"
     paragraph: |
       Ever dive into a conversation about topics rooted in diversity, inclusion, and your personal experiences and have it go from real casual to emotionally charged? Maybe you were talking to your manager during a 1:1. Perhaps it was your distant relative at some family reunion. Regardless of the situation, some conversations and experiences inevitably come with a slew of emotions that are sometimes difficult to process. How can we check on our range of emotions and process them so that they help instead of hinder?
@@ -185,8 +185,8 @@ New York, NY 10011"
 
 sf_upcoming:
   - image: 
-    description: "Upcoming events in San Francisco <br><br>
-    No upcoming events"
+    description: "<h3>Upcoming events in <span style='color:#20B2AA;'>San Francisco</span></h3>
+    <h4>No upcoming events</h4>"
     date: 
     paragraph: 
 
