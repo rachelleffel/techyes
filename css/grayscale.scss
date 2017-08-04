@@ -94,10 +94,16 @@
         position: absolute;
         top: 40;
         bottom: 142;
-        left: 40px;
+        left: 50px;
         width: 4px;
         margin-left: -1.5px;
         background-color: #009AD1;
+        @media screen and (min-width:980px) {
+            left:40px;
+        }
+        @media screen and (min-width:1170px) {
+            left:360px;
+        }
     }
 
     .timeline.sf {
@@ -105,8 +111,14 @@
     }
     .timeline.sf:before {
         background-color:#1FA8A0;
-        left: 130px;
+        left: 50px;
         bottom: 0;
+        @media screen and (min-width:980px) {
+            left:180px;
+        }
+        @media screen and (min-width:1170px) {
+            left:130px;
+        }
     }
     .timeline.sf:after {
         content: "";
@@ -117,7 +129,9 @@
         transform-origin: 1% 0%;
         width: 66.5%;
         right: 401px;
-
+        @media screen and (max-width:640px) {
+            display:none;
+        }
     }
 
     .timeline>li {
@@ -166,11 +180,6 @@
         margin-left: 0;
         text-align: center;
         color: #fff;
-    }
-
-    .flexbox {
-        display:flex;
-        align-items:flex-end;
     }
 
     .img-me {
@@ -233,9 +242,7 @@
     }
 
     @media(min-width:768px) {
-        .timeline:before {
-            left: 360px;
-        }
+        
 
         .timeline>li {
             margin-bottom: 100px;
@@ -661,7 +668,6 @@
     .members {
 
         text-align: center;
-        height: 190px;
 
         .person {
             margin: 0 -10px;
@@ -697,7 +703,7 @@
 
     .mission-text {
         margin: auto;
-        width: 45%;
+        width: 50%;
         display: block;
     }
 
@@ -917,7 +923,7 @@
     }
 
     .homepage-body {
-        padding: 0 250px;
+        padding: 0 150px;
     }
 
     .homepage-body p {
@@ -962,3 +968,47 @@
     .timelineevents {
         margin-top: -90px;
     }
+
+
+@media (min-width: 700px) {
+    .flexbox {
+        display:flex;
+        align-items:flex-end;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .homepage-body {
+        padding: 0 30px;
+    }
+
+    .homepage-heading h4 {
+        margin: -20px 10px 0;
+        padding: 50px 20px;
+    }
+
+    .homepage-heading h3 {
+        padding: 0 60px;
+    }
+
+    .intro-body p {
+        margin: 0 0 25px 0;
+    }
+
+    footer .logo {
+        display: none;
+    }
+
+    .members {
+        padding: 0 50px;
+    }
+
+    .mission-text {
+        width: 80%;
+    }
+
+    .timeline>li .timeline-panel {
+        padding: 20px
+    }
+}
