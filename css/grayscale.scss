@@ -783,32 +783,13 @@
             margin-top: 20px;
         }
         .logo {
-            width: 106px;
             height: 25px;
             float: right;
             margin: -40px 30px;
         }
     }
 
-    ::-moz-selection {
-        text-shadow: none;
-        background: #fcfcfc;
-        background: rgba($font-color, 0.2);
-    }
 
-    ::selection {
-        text-shadow: none;
-        background: #fcfcfc;
-        background: rgba($font-color, 0.2);
-    }
-
-    img::selection {
-        background: transparent;
-    }
-
-    img::-moz-selection {
-        background: transparent;
-    }
 
     /* Added in { Personal } for Typed Cursor in Header */
     .typed-cursor{
@@ -1010,5 +991,26 @@
 
     .timeline>li .timeline-panel {
         padding: 20px
+    }
+}
+
+.headline {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+
+.event_description_nyc {
+    color: #000;
+    &:hover {
+    color: #009AD1;
+    }
+}
+
+.event_description_sf {
+    color: #000;
+    &:hover {
+    color: #20B2AA;
     }
 }
