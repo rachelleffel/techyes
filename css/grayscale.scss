@@ -378,10 +378,13 @@
         -webkit-transition: all .2s ease-in-out;
         -moz-transition: all .2s ease-in-out;
         transition: all .2s ease-in-out;
-        &:hover,
-        &:focus {
+        &:hover {
             text-decoration: none;
             color: #333;
+        };
+        &:focus {
+            text-decoration: none;
+            color: #fff;
         }
     }
 
