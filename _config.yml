@@ -186,7 +186,7 @@ New York, NY 10011"
 sf_upcoming:
   - image: 
     description: "<h3>Upcoming events in <span style='color:#20B2AA;'>San Francisco</span></h3>
-    <h4>No upcoming events</h4>"
+    <h4>We're still planning our next event. Join our Meetup group for updates!</h4>"
     date: 
     paragraph: 
 

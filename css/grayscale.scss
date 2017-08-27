@@ -886,8 +886,8 @@
 
     .nyc {
         background-image: url('../img/NYC.png');
-        min-height: 970px;
         width: 100%;
+        min-height: 300px;
         background-repeat: no-repeat;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -897,7 +897,6 @@
 
     .saf {
         background-image: url('../img/SF.png');
-        min-height: 970px;
         width: 100%;
         background-repeat: no-repeat;
         -webkit-background-size: cover;
@@ -908,6 +907,7 @@
 
     .homepage-body {
         padding: 0 150px;
+        margin-top: -20px;
     }
 
     .homepage-body p {
@@ -922,10 +922,6 @@
     .homepage-heading h3 {
         margin-top: -5px;
         margin-bottom: -25px;
-    }
-
-    .sfhomepage {
-        padding-top: 300px;
     }
 
     .timeline-body {
