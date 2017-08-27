@@ -380,7 +380,7 @@
         transition: all .2s ease-in-out;
         &:hover {
             text-decoration: none;
-            color: #333;
+            color: #C0C0C0;
         };
         &:focus {
             text-decoration: none;
@@ -600,7 +600,7 @@
     }
 
     .btn:hover > a {
-        color: #000;
+        color: #404040;
     }
 
     .row {
@@ -1016,4 +1016,8 @@
     &:hover {
     color: #20B2AA;
     }
+}
+
+.btn a {
+    
 }
