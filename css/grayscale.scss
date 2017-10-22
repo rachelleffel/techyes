@@ -129,7 +129,7 @@
         transform-origin: 1% 0%;
         width: 66.5%;
         right: 401px;
-        @media screen and (max-width:640px) {
+        @media screen and (max-width:699px) {
             display:none;
         }
     }
@@ -243,6 +243,11 @@
 
     @media(min-width:768px) {
         
+        .timeline.sf:after {
+        bottom: -180px;
+        transform: rotate(-32.3deg);
+        right: 289px;
+        }
 
         .timeline>li {
             margin-bottom: 100px;
@@ -954,7 +959,7 @@
     }
 
 
-@media (min-width: 700px) {
+@media (min-width: 768px) {
     .flexbox {
         display:flex;
         align-items:flex-end;
@@ -1015,5 +1020,133 @@
     color: #000;
     &:hover {
     color: #20B2AA;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .timeline.sf:after {
+        display: none;
+    }
+
+
+    .timeline.sf {
+        margin-bottom: 100px;
+    }
+
+    .col-md-6 {
+        padding-right: 15px;
+        padding-left: 25px;
+    }
+
+    .timeline>li .timeline-panel {
+        padding-left: 100px;
+        float: none;
+        width: auto;
+    }
+
+    .timeline .timeline-heading h4 {
+        width: auto;
+    }
+
+    .timeline .timeline-body>p, .timeline .timeline-body>ul {
+        width: 100%;
+    }
+
+
+}
+
+
+
+
+
+@media (min-width: 768px) {
+
+    .timeline:before {
+        left: 270px;
+        bottom: 70px;
+    }
+
+    .timeline.sf:before {
+        left: 172px;
+    }
+
+    timeline.sf:after {
+        bottom: -137px;
+        transform: rotate(-33deg);
+        right: 304px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) { 
+
+    .timeline.sf:after {
+        bottom: -110px;
+        transform: rotate(-21.6deg);
+        left: -98px;
+        width: 66.3%;
+    }
+    
+}
+
+
+@media (min-width: 992px) and (max-width: 1000px) {
+
+    .timeline:before {
+        left: 370px;
+        bottom: 100px;
+    }
+
+}
+
+@media (min-width: 992px) {
+        .timeline.sf:before {
+        left: 182px;
+    }
+}
+
+
+@media (min-width: 1000px) {
+
+    .timeline:before {
+        left: 370px;
+        bottom: 100px;
+    }
+
+    timeline.sf:after {
+        bottom: -105px;
+        transform: rotate(-20.3deg);
+        right: 264px;
+    }
+}
+
+
+
+@media (min-width: 1190px) {
+
+    .timeline:before {
+        left: 360px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+
+    .timeline.sf:after {
+        transform: rotate(-15.8deg);
+        right: 408px;
+        bottom: -100px;
+    } 
+
+    .timeline.sf:before {
+    left: 132px;
+    }
+
+    .timeline:before {
+    bottom: 110px;
     }
 }
