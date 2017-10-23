@@ -241,7 +241,7 @@
         font-size: 14px;
     }
 
-    @media(min-width:768px) {
+    @media(min-width:769px) {
         
         .timeline.sf:after {
         bottom: -180px;
@@ -455,7 +455,7 @@
                 }
             }
         }
-        @media(min-width:768px) {
+        @media(min-width:769px) {
             padding: 20px 0;
             border-bottom: none;
             letter-spacing: 1px;
@@ -498,7 +498,7 @@
                 }
             }
         }
-        @media(min-width:768px) {
+        @media(min-width:769px) {
             height: 75%;
             padding: 0;
             .intro-body {
@@ -959,10 +959,20 @@
     }
 
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .flexbox {
         display:flex;
         align-items:flex-end;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 769px) {
+    .timeline:before {
+        left:50px;
+    }
+
+    .timeline.sf:before {
+        left: 50px;
     }
 }
 
@@ -1063,7 +1073,7 @@
 
 
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
 
     .timeline:before {
         left: 270px;
